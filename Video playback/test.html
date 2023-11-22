@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Test video preview
+    </title>
+    <style>
+        img {
+            height: 300px;
+            position: absolute;
+            display: inline-block;
+            left: 0;
+        }
+        .try
+        {
+            height: 300px;
+            opacity: 0%;
+            position: absolute;
+            display: inline-block;
+            left: 0;
+            transition-duration: 0.2s;
+            transition-delay: 0.5s;
+        }
+        video:hover
+        {
+            opacity: 100%
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="thumbnail-1.webp">
+        <video class="try" src="Recording 2023-11-16 175713.mp4" controls autoplay muted></video>
+        <audio class="trick" src="Recording 2023-11-16 175713.mp4" controls autoplay loop></audio>
+</div>
+</body>
+
+</html>

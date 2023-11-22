@@ -1,0 +1,175 @@
+.Youtube {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.left {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger {
+    height: 24px;
+}
+
+.Youtube-logo {
+    height: 20px;
+}
+
+.middle {
+    flex: 1;
+    max-width: 675px;
+    display: flex;
+    align-items: center;
+}
+
+.voice-back {
+    height: 40px;
+    background-color: rgb(0 0 0 / 5%);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.voice {
+    height: 24px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.right {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upload {
+    height: 24px;
+}
+
+.notifications {
+    height: 24px;
+}
+
+.profile {
+    height: 32px;
+    border-radius: 16px;
+}
+
+.webpage {
+    display: flex;
+    flex-direction: row;
+    row-gap: 40px;
+    column-gap: 16px;
+    flex-wrap: wrap;
+}
+
+p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.search {
+    display: block;
+    height: 37px;
+    width: 100%;
+    border-radius: 20px;
+    border-width: 0.8px;
+    border-color: rgb(211, 211, 211);
+    border-top-color: rgb(0 0 0 / 20%);
+    border-left-color: rgb(0 0 0 / 20%);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: flex;
+}
+
+.enter {
+    height: 24px;
+    margin-left: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 18px;
+}
+
+.enter-back {
+    background-color: rgb(0 0 0 / 2.5%);
+    height: 38px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: rgb(0 0 0 / 15%);
+    border-style: groove;
+    border-width: 0.8px;
+    border-left: none;
+}
+
+.thumbnail1 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logo1 {
+    width: 40px;
+    border-radius: 20px;
+}
+
+.channel {
+    display: inline-block;
+    width: 40px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.written {
+    width: 275px;
+    display: inline-block;
+}
+
+.Title {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.Name,
+.views {
+    font-size: 13px;
+    font-weight: light;
+    color: #606060;
+    padding-left: 10px;
+}
+
+.Name {
+    margin-bottom: 4px;
+}
+
+.Box {
+    min-width: 320px;
+    flex: 1;
+}
+.Box:hover
+{
+    cursor: pointer;
+}
+a
+{
+    
+    text-decoration:none;
+    color: black;
+}

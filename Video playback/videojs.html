@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick n Roll</title>
+  <style>
+    #videoContainer {
+      position: relative;
+      width: 1470px;
+      overflow: hidden;
+      transition-delay: 8s;
+      transition-duration: 2s;
+      opacity: 0%;
+    }
+
+    #videoPlayer {
+      width: 100%;
+      height: 100%;
+    }
+    #videoContainer:hover
+    {
+        opacity: 100%;
+    }
+    h1
+    {
+      font-size: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>You got rick rolled Bitch!!!!!!!!!!</h1>
+<img src="rick.jpg" style="width:1470px; height: 833px; display: inline; position: absolute;; ">
+<div id="videoContainer">
+  <video id="videoPlayer" controls>
+    <source src="Untitled video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<p>but i got a secret surprise for you behind this pic.</p>
+
+<script>
+  var videoContainer = document.getElementById('videoContainer');
+  var videoPlayer = document.getElementById('videoPlayer');
+
+  videoContainer.addEventListener('mouseenter', function() {
+    videoPlayer.play();
+  });
+
+  videoContainer.addEventListener('mouseleave', function() {
+    videoPlayer.pause();
+    videoPlayer.currentTime = 0; // Reset video to start
+  });
+</script>
+
+</body>
+</html>
